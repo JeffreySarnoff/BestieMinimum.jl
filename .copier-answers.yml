@@ -1,12 +1,12 @@
 # Changes here will be overwritten by Copier
 AnswerStrategy: minimum
-AuthorEmail: jeffrey.sarnoff@gmail.com
-AuthorName: Jeffrey Sarnoff
+AuthorEmail: abel.s.siqueira@gmail.com
+AuthorName: Abel Soares Siqueira
 Indentation: 2
 JuliaMinVersion: '1.6'
 License: MIT
-PackageName: MicroFloatsForAI
-PackageOwner: JeffreySarnoff
+PackageName: BestieMinimum
+PackageOwner: abelsiqueira
 PackageUUID: 911d942b-976d-5ead-b2b6-c499ef4f1d7c
 _commit: v0.8.0
-_src_path: https://github.com/JeffreySarnoff/BestieTemplate.jl
+_src_path: https://github.com/abelsiqueira/BestieTemplate.jl
