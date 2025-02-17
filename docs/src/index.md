@@ -1,9 +1,9 @@
 ```@meta
-CurrentModule = BestieMinimum
+CurrentModule = MicroFloatsForAI
 ```
 
-# BestieMinimum
+# MicroFloatsForAI
 
-Documentation for [BestieMinimum](https://github.com/abelsiqueira/BestieMinimum.jl).
+Documentation for [MicroFloatsForAI](https://github.com/JeffreySarnoff/MicroFloatsForAI.jl).
 
 

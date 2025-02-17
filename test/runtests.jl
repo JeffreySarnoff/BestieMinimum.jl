@@ -1,6 +1,6 @@
-using BestieMinimum
+using MicroFloatsForAI
 using Test
 
-@testset "BestieMinimum.jl" begin
+@testset "MicroFloatsForAI.jl" begin
   # Write your tests here.
 end

@@ -1,7 +1,7 @@
-name = "BestieMinimum"
+name = "MicroFloatsForAI"
 uuid = "911d942b-976d-5ead-b2b6-c499ef4f1d7c"
-authors = ["Abel Soares Siqueira <abel.s.siqueira@gmail.com> and contributors"]
+authors = ["Jeffrey Sarnoff <jeffrey.sarnoff@gmail.com> and contributors"]
 version = "0.1.0"
 
 [compat]
-julia = "1.6"
+julia = "1.11"

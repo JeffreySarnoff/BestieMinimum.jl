@@ -1,4 +1,4 @@
-module BestieMinimum
+module MicroFloatsForAI
 
 # Write your package code here.
 

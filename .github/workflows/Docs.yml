@@ -43,9 +43,9 @@ jobs:
       - run: |
           julia --project=docs -e '
             using Documenter: DocMeta, doctest
-            using BestieMinimum
-            DocMeta.setdocmeta!(BestieMinimum, :DocTestSetup, :(using BestieMinimum); recursive=true)
-            doctest(BestieMinimum)'
+            using MicroFloatsForAI
+            DocMeta.setdocmeta!(MicroFloatsForAI, :DocTestSetup, :(using MicroFloatsForAI); recursive=true)
+            doctest(MicroFloatsForAI)'
       - run: julia --project=docs docs/make.jl
         env:
           JULIA_PKG_SERVER: ""
