@@ -1,9 +1,9 @@
 ```@meta
-CurrentModule = MicroFloatsForAI
+CurrentModule = MicroFloatsForML
 ```
 
-# MicroFloatsForAI
+# MicroFloatsForML
 
-Documentation for [MicroFloatsForAI](https://github.com/JeffreySarnoff/MicroFloatsForAI.jl).
+Documentation for [MicroFloatsForML](https://github.com/JeffreySarnoff/MicroFloatsForML.jl).
 
 

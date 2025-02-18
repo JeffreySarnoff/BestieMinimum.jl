@@ -1,6 +1,6 @@
-using MicroFloatsForAI
+using MicroFloatsForML
 using Test
 
-@testset "MicroFloatsForAI.jl" begin
-  # Write your tests here.
+@testset "MicroFloatsForML.jl" begin
+  @test 1 == 1
 end

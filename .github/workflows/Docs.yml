@@ -43,9 +43,9 @@ jobs:
       - run: |
           julia --project=docs -e '
             using Documenter: DocMeta, doctest
-            using MicroFloatsForAI
-            DocMeta.setdocmeta!(MicroFloatsForAI, :DocTestSetup, :(using MicroFloatsForAI); recursive=true)
-            doctest(MicroFloatsForAI)'
+            using MicroFloatsForML
+            DocMeta.setdocmeta!(MicroFloatsForML, :DocTestSetup, :(using MicroFloatsForML); recursive=true)
+            doctest(MicroFloatsForML)'
       - run: julia --project=docs docs/make.jl
         env:
           JULIA_PKG_SERVER: ""

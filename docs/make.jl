@@ -1,7 +1,7 @@
-using MicroFloatsForAI
+using MicroFloatsForML
 using Documenter
 
-DocMeta.setdocmeta!(MicroFloatsForAI, :DocTestSetup, :(using MicroFloatsForAI); recursive = true)
+DocMeta.setdocmeta!(MicroFloatsForML, :DocTestSetup, :(using MicroFloatsForML); recursive = true)
 
 const page_rename = Dict("developer.md" => "Developer docs") # Without the numbers
 
@@ -14,15 +14,15 @@ function nice_name(file)
 end
 
 makedocs(;
-  modules = [MicroFloatsForAI],
+  modules = [MicroFloatsForML],
   doctest = true,
   linkcheck = false, # Rely on Lint.yml/lychee for the links
   authors = "Jeffrey Sarnoff <jeffrey.sarnoff@gmail.com> and contributors",
-  repo = "https://github.com/JeffreySarnoff/MicroFloatsForAI.jl/blob/{commit}{path}#{line}",
-  sitename = "MicroFloatsForAI.jl",
+  repo = "https://github.com/JeffreySarnoff/MicroFloatsForML.jl/blob/{commit}{path}#{line}",
+  sitename = "MicroFloatsForML.jl",
   format = Documenter.HTML(;
     prettyurls = true,
-    canonical = "https://JeffreySarnoff.github.io/MicroFloatsForAI.jl",
+    canonical = "https://DiademSpecialProjects.github.io/MicroFloatsForML.jl",
     assets = ["assets/style.css"],
   ),
   pages = [
@@ -34,4 +34,4 @@ makedocs(;
   ],
 )
 
-deploydocs(; repo = "github.com/JeffreySarnoff/MicroFloatsForAI.jl", push_preview = true)
+deploydocs(; repo = "github.com/JeffreySarnoff/MicroFloatsForML.jl", push_preview = true)

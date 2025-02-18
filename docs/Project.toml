@@ -5,7 +5,7 @@
 [deps]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 LiveServer = "16fef848-5104-11e9-1b77-fb7a48bbb589"
-MicroFloatsForAI = "84b6181b-ce9c-4182-8f9b-21b85ccf9a07"
+MicroFloatsForML = "84b6181b-ce9c-4182-8f9b-21b85ccf9a07"
 
 [compat]
 Documenter = "1"
